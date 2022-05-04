@@ -8,7 +8,7 @@ import Detail from "./components/Detail";
 function App() {
     return (
         <div className="App">
-            <Router>
+            <Router basename="/disney-plus-clone">
                 <Header/>
                 <Routes>
                     <Route path="/" element={<Login/>}>
